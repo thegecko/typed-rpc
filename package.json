@@ -34,6 +34,7 @@
     }
   },
   "scripts": {
+    "install": "npm run build",
     "build": "pkgroll --clean-dist --sourcemap",
     "start": "tsx src/test/server.ts",
     "test": "with-server tap src/test/client.ts",
