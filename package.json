@@ -1,5 +1,5 @@
 {
-  "name": "typed-rpc",
+  "name": "@thegecko/typed-rpc",
   "version": "6.0.0",
   "description": "Lightweight JSON-RPC solution for TypeScript projects",
   "keywords": [
@@ -34,7 +34,6 @@
     }
   },
   "scripts": {
-    "install": "npm run build",
     "build": "pkgroll --clean-dist --sourcemap",
     "start": "tsx src/test/server.ts",
     "test": "with-server tap src/test/client.ts",
